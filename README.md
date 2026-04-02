@@ -16,6 +16,15 @@ A Salesforce expert agent system for Claude Code, themed around New Kids on the 
 
 ## Using the Agents
 
+### Setup
+
+Requires [Claude Code](https://claude.ai/code). Clone this repo and the agents are available immediately — no additional configuration needed.
+
+```bash
+git clone https://github.com/lynnaloo/new-kids-on-the-block-agent
+cd new-kids-on-the-block-agent
+```
+
 Start Claude Code in your terminal from the repo directory:
 
 ```bash
@@ -35,12 +44,3 @@ Then invoke any agent with an `@`-mention:
 ```
 
 Use `@manager` when you're not sure which specialist to ask — it will route automatically.
-
-## Setup
-
-Requires [Claude Code](https://claude.ai/code). Clone this repo and the agents are available immediately — no additional configuration needed.
-
-```bash
-git clone https://github.com/lynnaloo/new-kids-on-the-block-agent
-cd new-kids-on-the-block-agent
-```
